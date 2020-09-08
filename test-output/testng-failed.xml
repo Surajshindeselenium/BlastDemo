@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="blazedemo.tests.LogInTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="invalidCredentials"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- blazedemo.tests.LogInTest -->
+      <class name="blazedemo.tests.DestinationOfTheWeekTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDownMethod"/>
+          <include name="destinationOfTheWeekPageOpening"/>
+        </methods>
+      </class> <!-- blazedemo.tests.DestinationOfTheWeekTest -->
+      <class name="blazedemo.tests.ReservationConfirmation">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setUp"/>
+          <include name="reservationConfirmationTest"/>
+        </methods>
+      </class> <!-- blazedemo.tests.ReservationConfirmation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
